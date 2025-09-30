@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+
+<body>
+
+  <div class="container">
+
+    
+<nav class="navbar1">
+  <header>
+      <h1>TODO</h1>
+      <button id="toggleTheme">🌙</button>
+      
+    </header>
+
+  <div class="input">
+      <input id="newTodo" type="text" placeholder="Create a new todo..." />
+      <button id="addBtn">Add</button>
+    </div>
+</nav>
+    
+    
+    <ul id="todoList"></ul>
+
+    <div class="filters">
+      <span id="count">0 items left</span>
+      <div>
+        <button data-filter="all">All</button>
+        <button data-filter="active">Active</button>
+        <button data-filter="completed">Completed</button>
+      </div>
+
+      <button id="clearCompleted">Clear Completed</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
