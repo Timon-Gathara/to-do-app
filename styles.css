@@ -6,7 +6,7 @@
   border-radius: 8px;
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
+  display: grid;
   justify-content: space-between;
   align-items: center;
   color: white;
@@ -17,7 +17,7 @@
   font-weight: bold;
   position: relative;
   transition: background-image 0.3s ease;
-  
+
 }
 :root {
   --bg: #fafafa;
