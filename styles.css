@@ -1,5 +1,22 @@
-#navbar1 {
-  background-image: image(url('./images/bg-desktop-dark.jpg'));
+#navbar {
+  background-image: url('./images/bg-desktop-dark.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  transition: background-image 0.3s ease;
   
 }
 :root {
@@ -29,10 +46,10 @@ body {
   min-height: 100vh;
   transition: background 0.3s, color 0.3s;
 }
-.container {
+/* .container {
   width: 100%;
   max-width: 500px;
-}
+} */
 header {
   display: flexbox;
   justify-content: space-between;
